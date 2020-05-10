@@ -12,4 +12,4 @@ source "$DOTFILES_PATH/scripts/core/_main.sh"
 
 docs::eval "$@"
 
-curl ifconfig.co
+wget -qO- http://ipecho.net/plain | xargs echo
