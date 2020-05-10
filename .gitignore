@@ -1,0 +1,10 @@
+/os/mac/alfred/preferences/Alfred.alfredpreferences/remote/
+
+# Common
+# ----------------------------------
+# Compiled zsh
+shell/zsh/**/**.zwc
+shell/zsh/**/**.zwc.old
+
+# Private Stuff
+/**/**/private-*
