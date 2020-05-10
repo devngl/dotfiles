@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTFILES_PATH/scripts/core/_main.sh"
+
+##? Shows a disk usage analysis sorted by size
+#?? 1.0.0
+##?
+##? Usage:
+##?    disk-usage
+
+docs::eval "$@"
+
+ncdu

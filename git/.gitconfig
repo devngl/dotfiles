@@ -1,0 +1,9 @@
+[user]
+        name = Ángel Marqués
+        email = g89.angel@gmail.com
+[core]
+        excludesfile = /Users/angel/.gitignore_global
+	pager = delta --plus-color="#012800" --minus-color="#340001" --theme='Monokai Extended'
+
+[interactive]
+	diffFilter = delta --color-only
